@@ -7,37 +7,65 @@
     <link rel="stylesheet" href="CSS/normalize.css">
     <script src="JS/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script src="JS/jquery-3.7.0.slim.min.js"></script>
+    <script src="JS/navbar.js" defer></script>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <title>Starbucks</title>
+    <link rel="icon" type="image" href="/Images/logo.png">
 </head>
 <body>
-    <h1>Hello   </h1>
-    <div class="NAVBAR">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                    </ul>
-                </div>
-                </div>
-            </nav>
+    <div class="navigation-header">
+        <nav>
+            <div class="logo-container">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/Images/logo.png" alt="Logo" id="img-nav">
+                </a>
+            </div>
+            <div class="navigation-items" id="navigation-items">
+                <a href=""><p>Inicio</p></a>
+                <a href="https://www.starbucks.com.co/menu"><p>Menu</p></a>
+                <a href="https://www.starbucks.com.co/seccion/novedades"><p>Novedades</p></a>
+                <a href="https://www.starbucks.com.co/stores"><p>Contacto</p></a>
+            </div>
+            <div class="compress">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="text-box">
+            <h2>Coffee that inspires 
+                <br> It's 
+                <span> Starbucks</span>
+            </h2>
+            <p>
+                El café es un producto increíblemente tradicional en Colombia, por eso en Starbucks nos enforzamos día a día en adquirir el mejor café de la mano de la responsabilidad y la ética que conlleva la producción tanto en el campo como en las manos de quien lo produce.
+            </p>
+            <a href="https://www.starbucks.com.co/menu">Menu</a>
+        </div>
+        <div class="img-box">
+            <img src="Images/img1.png" alt="imagen-content" class="starbucks">
+        </div>
+        <div class="redes">
+            <div class="navigation-redes" id="navigation-redes">
+                <a href="https://www.facebook.com/Starbucks/"><img src="/Images/facebook.png" alt="facebook" id="img-facebook"></a>
+                <a href="https://www.instagram.com/starbucks/"><img src="/Images/instagram.png" alt="instagram" id="img-instagram"></a>
+                <a href="https://twitter.com/StarbucksCOL"><img src="/Images/twitter.png" alt="twitter" id="img-twitter"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center" id="menuss">
+        <div class="row" id="content-select">
+            <div class="col" id="select-abajo">
+                <a href="/Pages/Page1.html"><img src="/Images/img1.png" alt="d" id="img-abajo"></a>
+            </div>
+            <div class="col" id="select-abajo">
+                <a href="/Pages/Page2.html"><img src="/Images/img2.png" alt="d" id="img-abajo"></a>
+            </div>
+            <div class="col" id="select-abajo">
+                <a href="/Pages/Page3.html"><img src="/Images/img3.png" alt="d" id="img-abajo"></a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
